@@ -1,0 +1,77 @@
+.bot-body {
+    position: static;
+    top: 0;
+    left: 0;
+    background: black;
+    color: white;
+    width: 1000px;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.bot-toggle {
+    width: 72px;
+    height: 72px;
+    position: fixed;
+    left: 32px;
+    top: 32px;
+    z-index: 99999;
+    border: 3px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bot-body-top {
+    width: 100%;
+}
+
+.bot-body-bottom {
+    width: 100%;
+    padding-top: 6px;
+}
+
+.bot-body-bottom > table {
+    width: 100%;
+    text-align: center;
+}
+
+.bot-div-chart {
+    width: 60%;
+    float: left;
+}
+
+.bot-div-code {
+    width: 40%;
+    float: left;
+}
+
+.bot-div-code > textarea {
+    padding: 0;
+    width: 100%;
+    height: 315px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.bot-clear-float {
+    clear: both;
+}
+
+.bot-div-control {
+    padding: 6px;
+}
+
+.bot-div-control > span {
+    background: white;
+    color: black;
+    padding: 3px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+#botChart {
+    height: 320px;
+}

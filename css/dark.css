@@ -1,0 +1,29 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.logo-title {
+	color: lime;
+}
+
+.bot-div-chart {
+    width: 40%;
+    float: left;
+}
+/*
+.bot-div-code {
+    width: 40%;
+    float: right;
+    text-align: left;
+}*/
+
+#botChart {
+    /*height: 320px;*/
+    height: 400px;
+}
+
+textarea {
+	background-color: black;
+	color: lime;
+}

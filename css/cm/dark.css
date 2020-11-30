@@ -1,0 +1,107 @@
+.bot-body {
+    position: static;
+    top: 0;
+    left: 0;
+    /*background: black;*/
+    background: linear-gradient(to bottom right,#428587,#000000); /* darkslategrey */
+    color: skyblue;
+    /*width: 1000px;*/
+    width: 80%;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+.bot-toggle {
+    width: 72px;
+    height: 72px;
+    position: fixed;
+    left: 32px;
+    top: 32px;
+    z-index: 99999;
+    border: 3px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bot-body-top {
+    width: 100%;
+}
+
+.bot-body-bottom {
+    width: 100%;
+    padding-top: 6px;
+}
+
+.bot-body-bottom > hr {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid white;
+}
+
+.bot-body-bottom > table {
+    width: 100%;
+    text-align: center;
+}
+
+.bot-div-chart {
+    width: 60%;
+    float: left;
+}
+
+.bot-div-code {
+    width: 40%;
+    float: left;
+    text-align: left;
+}
+
+.bot-clear-float {
+    clear: both;
+}
+
+.bot-div-control {
+    padding: 6px;
+    text-align: left;
+}
+
+.bot-div-control > span {
+    background: white;
+    color: black;
+    padding: 3px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+#botChart {
+    /*height: 320px;*/
+    height: 400px;
+}
+
+.bot-status {
+    color: white;
+}
+
+.red-profit {
+    color: red;
+}
+
+.green-profit {
+    color: lime;
+}
+
+.bot-history {
+    font-size: 13px;
+}
+
+.bot-win {
+    background-color: darkgreen;
+    color: gold;
+}
+
+.bot-lose {
+    background-color: black;
+    color: red;
+}
